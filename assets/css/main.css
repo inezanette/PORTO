@@ -219,7 +219,7 @@ input, select, textarea {
 		}
 /* Home */
     #top {
-		background: linear-gradient(178deg, rgb(156, 177, 248) 7.5%, rgb(153, 247, 243) 93.1%);
+		background:radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
 	    }		
 
 /* Container */
@@ -1765,6 +1765,7 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+			
 
 /* Social */
 
@@ -1892,6 +1893,8 @@ input, select, textarea {
 			width: auto;
 		}
 
+
+
 /* Icons */
 
 	.icon {
@@ -1910,6 +1913,7 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+			font-size: 6em;
 		}
 
 		.icon:before {
@@ -1929,7 +1933,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color:mediumaquamarine;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
