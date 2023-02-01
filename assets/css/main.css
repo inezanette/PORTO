@@ -1765,6 +1765,73 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+
+/* Elements */
+
+ul.elements li{
+	position: relative;
+	display: inline-block;
+	margin: 0.25em;
+	top: 0;
+	padding-left: 0;
+	list-style-type: none;
+	font-size: 45px;
+	color: white;
+	filter: drop-shadow(0px 0px 1px #000);
+}
+
+ul.elements::before {
+	font-family: "Font Awesome 6 Free";
+}
+
+ul.elements li i{
+	-moz-transition: top .2s ease-in-out;
+				-webkit-transition: top .2s ease-in-out;
+				-ms-transition: top .2s ease-in-out;
+				transition: top .2s ease-in-out;
+				display: block;
+				width: 48px;
+				height: 48px;
+				border-radius: 6px;
+				top: 0;
+				position: relative;
+
+}
+
+ul.elements li a:before {
+	background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	-moz-transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-ms-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+	border-radius: 6px;
+	box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+	display: block;
+	font-size: 26px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	outline: 0;
+	overflow: hidden;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+	width: 48px;
+}
+
+ul.elements li i.fa-html5 {
+	background-color: orangered;
+}
+ul.elements li i.fa-css3-alt {
+	background-color:dodgerblue;
+}
+ul.elements li i.fa-square-js {
+	background-color:gold;
+}
+ul.elements li i.fa-react {
+	background-color:paleturquoise;
+}
 			
 
 /* Social */
